@@ -1,0 +1,21 @@
+{
+    "name": "kjcy8/phpanalysis",
+    "description": "PHPAnalysis居于Unicode编码词典的PHP中文分词器，使用RMM逆向匹配算法进行分词",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "IT柏拉图",
+            "email": "2500875@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "phpanalysis\\": "kjcy8/phpanalysis"
+        }
+    }
+}
